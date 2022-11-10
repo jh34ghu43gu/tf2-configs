@@ -21,6 +21,7 @@
  * Initial Mouse5 press after class change
    * mvm/default_mvm
      * mvm/chat_binds_mvm
+	 * mvm/cranteens (note: demo and soldier will technically ignore this)
 	 * \<Set loadout preset to B>
    * mvm/classname.cfg
  * Initial Mouse4 press after class change
@@ -38,6 +39,7 @@
  * In mvm on heavy, the mousewheel up/down is a toggle for fire/rev. Do the same action twice in a row to cancel.
  * In mvm on spy, Mouse3 undisguises and Mouse1 auto disguises to enemy spy after attacking.
  * In mvm on scout, autoreload is disabled.
+ * In mvm for not demo&soldier, pressing j will "queue" a canteen then next time mouse1 is pressed to easily canteen and attack at the same time. Due to limitations I can't work around it will auto-attack until mouse1 is pressed again, after which it will revert back to functioning as mouse1.
  * On engineer, Mouse3 is a teleport to tele exit bind and 'R' is a teleport to base bind for the Eureka effect.
  * No hitsounds in mvm and volume is at 8%. Casual has hitsounds and volume is at 15%.
  * RCTRL toggles '+movedown' which allows for moving taunts to move slower than normal (such as the conga).
